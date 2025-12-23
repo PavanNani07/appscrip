@@ -1,0 +1,88 @@
+/* Sidebar Container */
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #eee;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease;
+
+  }
+
+
+
+.filterToggleHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 15px 0;
+  font-weight: bold;
+  border-top: 1px solid #e5e5e5;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 5px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  transition: background-color 0.2s ease;
+}
+  
+  /* Item Count and Filter Toggle */
+  .itemCount {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .filterToggle {
+    font-size: 14px;
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Customizable Checkbox */
+  .customizable {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .customizable input {
+    margin-right: 8px;
+  }
+  
+  /* Filter Group Styling */
+  .filterGroup {
+    margin-bottom: 15px;
+  }
+  
+  
+  .filterHeader:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Filter Options */
+  .filterOptions {
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  
+  .filterOptions p {
+    font-size: 14px;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  

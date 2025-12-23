@@ -1,0 +1,49 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.gridWrapper {
+  flex-grow: 1;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filterDropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 10px;
+}
+
+.filterDropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.filterDropdown span {
+  font-size: 16px;
+  font-weight: bold;
+}

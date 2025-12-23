@@ -1,0 +1,84 @@
+.header {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: white;
+  }
+  
+  .topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logoSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logoText {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 650px; /* Adjust spacing between logo and text */
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .language {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px 20px;
+    }
+  
+    .logoText {
+      font-size: 24px;
+      margin-left: 90px;
+       /* Adjust logo text size for mobile */
+    }
+  
+    .nav {
+      flex-direction: row; /* Stack navigation items vertically */
+      gap: 15px; /* Space between nav items */
+    }
+  
+    .nav a {
+      font-size: 14px; /* Adjust font size for mobile */
+    }
+  
+    .rightSection {
+      justify-content: flex-end; /* Align right section to the right on mobile */
+    }
+  }
